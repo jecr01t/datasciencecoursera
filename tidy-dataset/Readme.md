@@ -8,4 +8,6 @@ files:
 to transform the raw dataset into the tidy dataset
 * 	tidy-dataset_Coursera-GettingAndCleaningData.txt - text file containing the tidy
 dataset
+* Readme.md - this file
+
 
