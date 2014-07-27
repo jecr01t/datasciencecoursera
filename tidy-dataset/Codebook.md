@@ -33,3 +33,92 @@ to calculate the average readings per each subject-activity combination
 5. Original variable names are processed using regular expressions in order
 for them to have meaningful names
 
+
+The following is a list of variables included in the data set.
+In order to improve the readability, those names starting with 't' now
+start with the word 'Time'
+Those variables starting with 'f' have been renamed to start with 'FFT'
+to indicate that they have been obtained after applying a fourier transformation
+on the original value
+
+* Subject
+* Activity                        
+* Time.BodyAcc.mean.X               
+* Time.BodyAcc.mean.Z               
+* Time.BodyAcc.std.Y                
+* Time.GravityAcc.mean.X            
+* Time.GravityAcc.mean.Z            
+* Time.GravityAcc.std.Y             
+* Time.BodyAccJerk.mean.X           
+* Time.BodyAccJerk.mean.Z           
+* Time.BodyAccJerk.std.Y            
+* Time.BodyGyro.mean.X              
+* Time.BodyGyro.mean.Z              
+* Time.BodyGyro.std.Y               
+* Time.BodyGyroJerk.mean.X          
+* Time.BodyGyroJerk.mean.Z          
+* Time.BodyGyroJerk.std.Y           
+* Time.BodyAccMag.mean              
+* Time.GravityAccMag.mean           
+* Time.BodyAccJerkMag.mean          
+* Time.BodyGyroMag.mean             
+* Time.BodyGyroJerkMag.mean         
+* FFT.BodyAcc.mean.X                
+* FFT.BodyAcc.mean.Z                
+* FFT.BodyAcc.std.Y                 
+* FFT.BodyAcc.meanFreq.X            
+* FFT.BodyAcc.meanFreq.Z            
+* FFT.BodyAccJerk.mean.Y            
+* FFT.BodyAccJerk.std.X             
+* FFT.BodyAccJerk.std.Z             
+* FFT.BodyAccJerk.meanFreq.Y        
+* FFT.BodyGyro.mean.X               
+* FFT.BodyGyro.mean.Z               
+* FFT.BodyGyro.std.Y                
+* FFT.BodyGyro.meanFreq.X           
+* FFT.BodyGyro.meanFreq.Z           
+* FFT.BodyAccMag.std                
+* FFT.BodyBodyAccJerkMag.mean       
+* FFT.BodyBodyAccJerkMag.meanFreq   
+* FFT.BodyBodyGyroMag.std           
+* FFT.BodyBodyGyroJerkMag.mean      
+* FFT.BodyBodyGyroJerkMag.meanFreq
+* Time.BodyAcc.mean.Y            
+* Time.BodyAcc.std.X             
+* Time.BodyAcc.std.Z             
+* Time.GravityAcc.mean.Y         
+* Time.GravityAcc.std.X          
+* Time.GravityAcc.std.Z          
+* Time.BodyAccJerk.mean.Y        
+* Time.BodyAccJerk.std.X         
+* Time.BodyAccJerk.std.Z         
+* Time.BodyGyro.mean.Y           
+* Time.BodyGyro.std.X            
+* Time.BodyGyro.std.Z            
+* Time.BodyGyroJerk.mean.Y      
+* Time.BodyGyroJerk.std.X       
+* Time.BodyGyroJerk.std.Z       
+* Time.BodyAccMag.std           
+* Time.GravityAccMag.std        
+* Time.BodyAccJerkMag.std       
+* Time.BodyGyroMag.std          
+* Time.BodyGyroJerkMag.std      
+* FFT.BodyAcc.mean.Y            
+* FFT.BodyAcc.std.X             
+* FFT.BodyAcc.std.Z             
+* FFT.BodyAcc.meanFreq.Y        
+* FFT.BodyAccJerk.mean.X        
+* FFT.BodyAccJerk.mean.Z        
+* FFT.BodyAccJerk.std.Y         
+* FFT.BodyAccJerk.meanFreq.X    
+* FFT.BodyAccJerk.meanFreq.Z    
+* FFT.BodyGyro.mean.Y           
+* FFT.BodyGyro.std.X            
+* FFT.BodyGyro.std.Z            
+* FFT.BodyGyro.meanFreq.Y       
+* FFT.BodyAccMag.mean           
+* FFT.BodyAccMag.meanFreq       
+* FFT.BodyBodyAccJerkMag.std    
+* FFT.BodyBodyGyroMag.mean      
+* FFT.BodyBodyGyroMag.meanFreq  
+* FFT.BodyBodyGyroJerkMag.std   
